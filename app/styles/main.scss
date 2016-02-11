@@ -1,0 +1,66 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+$headercolor: #1b1d81;
+$footercolor:#175498;
+$textcolor:#ffffff;
+$navcolor:#e2e2e2;
+.mainnav {
+    background-color: $navcolor;
+}
+
+.mainlogo {
+    height: 50px;
+    width: 50px;
+}
+
+.maincontent {
+    background: #dddddd;
+}
+
+.mainheader {
+    background: $headercolor;
+}
+
+.mainfooter {
+    width: 100%;
+    bottom: 1px;
+    height: 30px;
+    position: fixed;
+    background: $footercolor;
+    color: $textcolor;
+}
+
+.dborad-tab {
+    background-color: $navcolor;
+    border: 1px solid #676767;
+    height: 550px;
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+
+.maindiv {
+    height: 200px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.icon-style {
+    padding: 10px;
+    display: inline-block;
+}
+
+.icon-bar {
+    color: $textcolor;
+}
+.toggleholder{
+  display:inline-block;
+  height:500px;
+  width:5px;
+  background:black;
+}
+.mSecondPanel .panel-body,.mFourthPanel .panel-body,.mSixthPanel .panel-body{
+  height:150px;
+  overflow-y:scroll;
+}
